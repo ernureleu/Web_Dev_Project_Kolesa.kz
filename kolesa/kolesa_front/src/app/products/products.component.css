@@ -1,0 +1,56 @@
+
+.car-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.car-list ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.car-list li {
+  width: 200px;
+  margin: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.car-list li a {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: #333;
+}
+
+.car-list li a:hover {
+  background-color: #f5f5f5;
+}
+
+.car-list li img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.car-list li span {
+  display: block;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: bold;
+}
+.add-to-cart-button {
+  background-color: #0077cc;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.add-to-cart-button:hover {
+  background-color: #005ea8;
+}

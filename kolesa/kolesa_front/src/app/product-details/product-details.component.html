@@ -1,0 +1,13 @@
+<div class="main">
+  <div class="car" *ngIf="car">
+    <h2>{{car.name}}</h2>
+    <img src="{{car.imageUrl}}" alt="" class = "img">
+    <h3>Characteristics: </h3>
+    <p>Engine: {{car.engine}} litres</p>
+    <p>Year: {{car.year}}</p>
+    <p>Price {{car.price}}Tg</p>
+    <ng-container *ngIf="logged">
+    <button class="add-to-cart-button" (click)="addToFavorite(car.id)">Add to cart</button>
+    </ng-container>
+  </div>
+</div>

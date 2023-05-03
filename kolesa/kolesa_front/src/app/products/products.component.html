@@ -1,0 +1,12 @@
+<div class="category">
+  <div class="car-list">
+    <ul>
+      <li *ngFor="let car of products">
+        <a routerLink="{{car.id}}">
+          <img src="{{car.imageUrl}}" alt="Book Title 1">
+          <span>{{car.name}}</span>
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>

@@ -1,0 +1,20 @@
+.img {
+  width: 400px;
+}
+*{
+  margin-left: 30px;
+}
+.add-to-cart-button {
+  background-color: #0077cc;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.add-to-cart-button:hover {
+  background-color: #005ea8;
+}
